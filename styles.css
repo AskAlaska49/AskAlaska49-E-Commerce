@@ -158,8 +158,10 @@ button:active {
 HIGHLIGHTS
 */
 
+
 #highlights {
     position: relative;
+
 }
 
 #highlights:after,
@@ -204,8 +206,8 @@ HIGHLIGHTS
 }
 
 .highlight__img {
-    border: 2px solid #02C3CF;
-    color: #02C3CF;
+    border: 2px solid #02c1cf81;
+    color: #03a9b5;
     width: 100px;
     height: 100px;
     display: flex;
