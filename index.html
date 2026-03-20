@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/6e5d0e8d33.js" crossorigin="anonymous">
     </script>
-    <script src="index.js">
-    </script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -21,6 +20,7 @@
                     <li><a href="#" class="nav__link">Contact</a></li>
                     <li><a href="#" class="nav__link--primary">Books</a></li>
                 </ul>
+                </div>
             <button class="btn__menu" onclick="openMenu()">
                 <i class="fas fa-bars"></i>
             </button>
@@ -33,10 +33,10 @@
                         <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
                     </li>
                     <li class="menu__list">
-                        <a href="#" class="menu__link" onclick="closeMenu()">Books</a>
+                        <a class="menu__link no-cursor" onclick="closeMenu()">Contact</a>
                     </li>
                     <li class="menu__list">
-                        <a class="menu__link no-cursor" onclick="closeMenu()">Contact</a>
+                        <a href="#" class="menu__link" onclick="closeMenu()">Books</a>
                     </li>
                 </ul>
             </div>
@@ -345,7 +345,7 @@
             <div class="row row__column">
                 <a href="#">
                     <figure class="footer__logo">
-                         <img src="./assets/Library.svg" class="footer__logo--img" alt="Library">
+                     <img src="./assets/Library.svg" class="footer__logo--img" alt="Library"> 
                     </figure>
                 </a>
             <div class="footer__list">
