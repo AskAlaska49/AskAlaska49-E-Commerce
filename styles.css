@@ -388,7 +388,7 @@ footer {
 }
 
 .footer__link,
-.footer__cuprite {
+.footer__copyright{
     color: #fff;
 }
 .footer__list {
@@ -435,13 +435,14 @@ footer {
 
 /* SMALL PHONES, LARGE SMARTPHONES */
 
-@media (max-width: 550px) 
+@media (max-width: 550px) {
     .btn__menu {
     display: block;
     }
     .nav__link {
         display: none;
     }
+}
 
 
 
